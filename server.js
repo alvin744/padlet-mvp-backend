@@ -1,6 +1,9 @@
 const express = require("express");
 const cors = require("cors");
 
+// initialize database on startup
+require("./initDb");
+
 const usersRouter = require("./routes/users");
 const promptsRouter = require("./routes/prompts");
 const responsesRouter = require("./routes/responses");

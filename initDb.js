@@ -49,5 +49,3 @@ db.serialize(() => {
 
   console.log("Database initialized.");
 });
-
-db.close();
